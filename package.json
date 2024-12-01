@@ -19,6 +19,7 @@
     "build:umd:min": "NODE_ENV=production webpack -p src/index.js umd/ConnectedReactRouter.min.js",
     "build": "npm run build:commonjs & npm run build:umd & npm run build:umd:min",
     "lint": "eslint .",
+    "prepare": "npm run build",
     "test": "jest --config ./.jestrc",
     "test:watch": "npm run test -- --watch",
     "posttest": "npm run lint"
