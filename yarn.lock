@@ -2840,7 +2840,7 @@ ignore@^3.2.0:
   resolved "https://registry.npmjs.org/ignore/-/ignore-3.3.8.tgz"
   integrity sha512-pUh+xUQQhQzevjRHHFqqcTy0/dP/kS9I8HSrUydhihjuD09W6ldVWFtIrwhXdUJHis3i2rZNqEHpZH/cbinFbg==
 
-immutable@^3.8.1:
+immutable@^3.8.1, "immutable@^3.8.1 || ^4.0.0-rc.1":
   version "3.8.2"
   resolved "https://registry.npmjs.org/immutable/-/immutable-3.8.2.tgz"
   integrity sha1-wkOZUUVbs5kT2vKBN28VMOEErfM= sha512-15gZoQ38eYjEjxkorfbcgBKBL6R7T459OuK+CpcWt7O3KF4uPCx2tD0uFETlUDIyo+1789crbMhTvQBSR5yBMg==
